@@ -1,8 +1,8 @@
 {
-    "version":  "1.3.6",
-    "downloadUrl":  "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v1.3.6/AFKCRAFT-Setup.exe",
-    "sha256":  "340c6f570bc1a4dfdd300ec4f02684f00b5072cab1ac0016ffe950e1c2a3fabe",
-    "sizeBytes":  204425809,
-    "releaseNotes":  "- เพิ่ม AmoryCraft ในรายการเซิร์ฟให้พร้อมใช้: เลือกตอนเพิ่มบอทได้เลย ไม่ต้องตั้งวิธีเข้าเกมเอง (ต้องสมัครไอดีในเซิร์ฟเองก่อน)\n- หน้าตั้งค่าเซิร์ฟบอกชัดว่าเซิร์ฟไหนแอปรู้วิธีเข้าเกมแล้ว",
-    "publishedAt":  "2026-11-14T12:05:45Z"
+    "version":  "1.3.7",
+    "downloadUrl":  "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v1.3.7/AFKCRAFT-Setup.exe",
+    "sha256":  "dd4c6153eef8b5ea34c70639f3ac18f057bdd3fd13e29baf730d6f8c018d2e50",
+    "sizeBytes":  204423208,
+    "releaseNotes":  "- แก้ปัญหากดอัปเดตแล้วหน้าติดตั้งปิดไปเองโดยไม่อัปเดต: ตัวติดตั้งจะรอให้โปรแกรมเดิมปิดก่อน (ถ้ายังค้างจะปิดให้) แล้วค่อยติดตั้ง — บอท License และการตั้งค่าอยู่ครบ",
+    "publishedAt":  "2026-11-14T15:36:26Z"
 }
