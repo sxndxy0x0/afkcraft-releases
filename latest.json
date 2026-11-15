@@ -1,8 +1,8 @@
 {
-    "version":  "1.3.7",
-    "downloadUrl":  "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v1.3.7/AFKCRAFT-Setup.exe",
-    "sha256":  "dd4c6153eef8b5ea34c70639f3ac18f057bdd3fd13e29baf730d6f8c018d2e50",
-    "sizeBytes":  204423208,
-    "releaseNotes":  "- แก้ปัญหากดอัปเดตแล้วหน้าติดตั้งปิดไปเองโดยไม่อัปเดต: ตัวติดตั้งจะรอให้โปรแกรมเดิมปิดก่อน (ถ้ายังค้างจะปิดให้) แล้วค่อยติดตั้ง — บอท License และการตั้งค่าอยู่ครบ",
-    "publishedAt":  "2026-11-14T15:36:26Z"
+    "version":  "1.3.8",
+    "downloadUrl":  "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v1.3.8/AFKCRAFT-Setup.exe",
+    "sha256":  "aa442d0a3c61a7eb925dff003edf4083a15d5b207682519714f28606135f0e1b",
+    "sizeBytes":  204385925,
+    "releaseNotes":  "- แก้บอทไม่ตอบรับคำขอวาร์ปจากผู้เล่นเป้าหมายบน SiamCraft (\"ส่งคำขอวาร์ปไปหาเขา\") — ยอมรับ TPA อัตโนมัติกลับมาใช้ได้\n- ตอบแชทเกมข้อ Beacon ได้เพิ่ม",
+    "publishedAt":  "2026-11-15T12:51:16Z"
 }
