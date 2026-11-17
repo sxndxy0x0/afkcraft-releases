@@ -1,8 +1,8 @@
 {
-    "version":  "1.4.1",
-    "downloadUrl":  "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v1.4.1/AFKCRAFT-Setup.exe",
-    "sha256":  "77890ee3ef4a6345bfa159dc120933ee7481bdcfe4a87cec2cb5a0d72bcc627a",
-    "sizeBytes":  204503091,
-    "releaseNotes":  "- แก้ไขข้อผิดพลาด \"block.position.offset is not a function\" ขณะกดขายของในกรงสปอนเนอร์ หรือตรวจสอบกรง (Inspect Spawner)\n- ปรับปรุงการส่งแพ็กเก็ตเปิดกรงสปอนเนอร์ให้รองรับทั้ง activateBlock ปกติและ Fallback packet ตรงสู่เซิร์ฟเวอร์\n- ปรับจังหวะรอหน้าต่างยืนยันการขาย (Confirmation Window) ให้ยืดหยุ่นและแม่นยำยิ่งขึ้น\n- รวมฟีเจอร์ Auto-Sell Spawners, Command Tree, และ Sequential Login Queue จาก v1.4.0",
-    "publishedAt":  "2026-11-17T17:01:35Z"
+    "version":  "1.4.2",
+    "downloadUrl":  "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v1.4.2/AFKCRAFT-Setup.exe",
+    "sha256":  "da49eb759a92b2ed3bbd19bd2c959802fc984891f63301e6a14a13ca514a8b6a",
+    "sizeBytes":  204513557,
+    "releaseNotes":  "AFKCRAFT 1.4.2\n\nจุดเด่นในการอัปเดต:\n- เพิ่มตัวบอกเวลานับถอยหลัง \"จะขายในอีกกี่วิ\" (เช่น ⏳ จะขายในอีก 45 วิ) ทันทีที่ติ๊กเลือกกรง [✓] เลือกกรงนี้ขายอัตโนมัติ (Auto-Sell)\n- เพิ่มแถบสรุปสถานะการขายออโต้บนหัวแท็บเรดาร์ Spawners แสดงจำนวนกรงที่เลือกและเวลานับถอยหลังรอบถัดไปแบบเรียลไทม์\n- ปรับระบบให้เปิด Auto-Sell Spawners ในการตั้งค่าอัตโนมัติทันทีเมื่อติ๊กเลือกกรงในเรดาร์ ไม่ต้องไปกดเปิดเองในหน้าตั้งค่า\n- เมื่อถึงเวลาขายจะแสดงสถานะ ⚡ กำลังขายของ... พร้อมรายงานผลการขาย\n- รักษาประสิทธิภาพ UI ขั้นสูงสุดด้วยระบบนับเวลาแบบ event-driven ไม่กิน CPU",
+    "publishedAt":  "2026-11-17T17:19:04Z"
 }
