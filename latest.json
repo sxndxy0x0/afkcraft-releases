@@ -1,8 +1,8 @@
 {
-    "version":  "1.4.0",
-    "downloadUrl":  "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v1.4.0/AFKCRAFT-Setup.exe",
-    "sha256":  "1ad1326fd220cd80293313fe6eec79332dc56e325aa1ba3fa8a7a61657012a25",
-    "sizeBytes":  204520367,
-    "releaseNotes":  "- ระบบขายของในกรงสปอนเนอร์อัตโนมัติ (Auto-Sell Spawners): บอทตรวจจับกรงในระยะเอื้อมถึง (\u003c= 4.5 บล็อก) เปิดกรง กดขายไอเทมทั้งหมด และกดยืนยันการขายให้อัตโนมัติ พร้อมตัวเลือกให้ติ๊กเลือกกรงที่ต้องการขายหรือกรองตามชนิดม็อบ\n- เพิ่มปุ่มกดขายของในกรงบนการ์ดเรดาร์ (Manual Sell) และปุ่มขายทุกกรงรอบตัวในคลิกเดียว\n- ระบบ Command Tree ในหน้าคอนโซล: แนะนำคำสั่งและค้นหาชื่อผู้เล่นในเซิร์ฟเวอร์แบบเรียลไทม์ขณะพิมพ์\n- ระบบคิวเปิดบอทตามลำดับ (Sequential Login Queue): ปล่อยบอทเข้าเซิร์ฟเวอร์ทีละตัว รอให้บอทตัวก่อนหน้าเข้าประจำจุด AFK ก่อนเริ่มตัวถัดไป ป้องกันการส่งแพ็กเก็ตชนกัน\n- ระบบ Sticky IP on Disconnect: จดจำ Proxy IP เดิมเมื่อหลุดจากห้องตรวจ Antibot ป้องกันการเจอปัญหาตรวจจับแคปชาซ้ำซ้อน\n- ปรับปรุงความเสถียรของเครือข่ายและระบบป้องกันการหลุดจากเซิร์ฟเวอร์",
-    "publishedAt":  "2026-11-17T16:42:07Z"
+    "version":  "1.4.1",
+    "downloadUrl":  "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v1.4.1/AFKCRAFT-Setup.exe",
+    "sha256":  "77890ee3ef4a6345bfa159dc120933ee7481bdcfe4a87cec2cb5a0d72bcc627a",
+    "sizeBytes":  204503091,
+    "releaseNotes":  "- แก้ไขข้อผิดพลาด \"block.position.offset is not a function\" ขณะกดขายของในกรงสปอนเนอร์ หรือตรวจสอบกรง (Inspect Spawner)\n- ปรับปรุงการส่งแพ็กเก็ตเปิดกรงสปอนเนอร์ให้รองรับทั้ง activateBlock ปกติและ Fallback packet ตรงสู่เซิร์ฟเวอร์\n- ปรับจังหวะรอหน้าต่างยืนยันการขาย (Confirmation Window) ให้ยืดหยุ่นและแม่นยำยิ่งขึ้น\n- รวมฟีเจอร์ Auto-Sell Spawners, Command Tree, และ Sequential Login Queue จาก v1.4.0",
+    "publishedAt":  "2026-11-17T17:01:35Z"
 }
