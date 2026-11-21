@@ -1,8 +1,20 @@
 {
-    "version":  "1.4.8",
-    "downloadUrl":  "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v1.4.8/AFKCRAFT-Setup.exe",
-    "sha256":  "dbcec76b26d3a42f6caa5ccd8d7e0bfa0873faab71e08644fdf7836b5dc25967",
-    "sizeBytes":  226466587,
-    "releaseNotes":  "AFKCRAFT 1.4.8\n\nรายการแก้ไขและปรับปรุงในเวอร์ชันนี้:\n- 🔧 แก้ไขปัญหาหลุดการเชื่อมต่อทันที (socketClosed) สำหรับบอทที่ใช้เน็ตบ้าน (Direct Home IP):\n  * แยก ViaProxy พอร์ต 25568 (เน็ตบ้าน — โหมดมาตรฐาน rewrite-handshake-packet=true) ออกจาก Shared Multiplexed ViaProxy พอร์ต 25569 (Proxy แยก IP — โหมด INTERNAL + LocalProxyBridge) ไม่ให้ตีกัน\n  * ทดสอบเชื่อมต่อจริงกับเซิร์ฟเวอร์ผ่านทั้ง 2 เส้นทาง (Direct Home IP และ Shared Proxy Multiplexer) สำเร็จ 100%\n\n- 🧠 ลด RAM ตอนเปิดโปรแกรมจริงและแสดงค่า RAM ตรงตาม Windows Task Manager (~110–125 MB):\n  * ปรับแถบสถานะ RAM ด้านล่างให้รายงาน Private Bytes จริงของทั้ง 3 โปรเซส (ตรงกับ Task Manager ไม่นับซ้ำไฟล์ DLL/Binary ที่แชร์กัน 3 รอบจากเดิมที่ขึ้น ~413 MB) พร้อมทูลทิปแสดงทั้ง Private RAM และ Working Set เมื่อชี้เมาส์\n  * เพิ่ม Chromium/V8 memory flags (--max-semi-space-size=1, --disable-http-cache, --disk-cache-size=1, --media-cache-size=1, --disable-site-isolation-trials, --disable-back-forward-cache)\n  * Lazy-load พจนานุกรม chat-game-solver เมื่อใช้งานจริง + เคลียร์ขยะช่วงเปิดโปรแกรมครั้งเดียวหลังจบ Splash\n\n- ผ่านการทดสอบอัตโนมัติครบ 409/409 Unit Tests (100% Pass)",
-    "publishedAt":  "2026-11-19T18:21:52Z"
+  "version": "2.0.0",
+  "publishedAt": "2026-11-21",
+  "releaseNotes": "• ยกระดับ UI/UX ดีไซน์ Redstone Night ทั้งระบบ รองรับทั้ง Desktop และ Mobile เต็มรูปแบบ\n• เพิ่มระบบ In-App Auto Updater รองรับทั้ง Windows (.exe) และ Android (.apk)\n• ปรับปรุงประสิทธิภาพ SoftRenderer (Translucent Triangle Fast-Path) และระบบ Console Culling\n• เพิ่มแถบ Quick-Jump ในหน้าตั้งค่า, แผงปุ่มลัด 4×2 บนคอนโซลมือถือ และปุ่มโปรไฟล์บนแถบด้านบนมือถือ",
+  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-Rust.exe",
+  "windows": {
+    "version": "2.0.0",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-Rust.exe",
+    "sha256": "6347d90e9ba3e9f6f5ef4f1c0fe337d1aef025915aac24f1793a82ba24192296",
+    "sizeBytes": 5821440,
+    "fileName": "AFKCRAFT-Rust.exe"
+  },
+  "android": {
+    "version": "2.0.0",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-2.0.0.apk",
+    "sha256": "a6dcbaa508c55dd3bdfc3006062566462789ab1a27637e30ee140814f2736ce4",
+    "sizeBytes": 4145975,
+    "fileName": "AFKCRAFT-2.0.0.apk"
+  }
 }
