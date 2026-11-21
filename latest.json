@@ -1,19 +1,19 @@
 {
   "version": "2.0.0",
   "publishedAt": "2026-11-21",
-  "releaseNotes": "• ยกระดับ UI/UX ดีไซน์ Redstone Night ทั้งระบบ รองรับทั้ง Desktop และ Mobile เต็มรูปแบบ\n• เพิ่มระบบ In-App Auto Updater รองรับทั้ง Windows (.exe) และ Android (.apk)\n• ปรับปรุงประสิทธิภาพ SoftRenderer (Translucent Triangle Fast-Path) และระบบ Console Culling\n• เพิ่มแถบ Quick-Jump ในหน้าตั้งค่า, แผงปุ่มลัด 4×2 บนคอนโซลมือถือ และปุ่มโปรไฟล์บนแถบด้านบนมือถือ",
+  "releaseNotes": "• แก้ไขปัญหาคลิกเลือกโซนซ้ำรัวผิดปกติ (Debounce 5s + Hard Cap 3 ครั้ง ป้องกัน Velocity เตะ)\n• ปรับไอคอน Taskbar และหน้าต่างเป็นไอคอน AFKCRAFT ให้คมชัดสวยงาม\n• ปรับการแสดงผลระยะขอบ Ping ไม่ให้ชิดขอบการ์ด\n• ปรับความคมชัดของฟอนต์ (Gamma Correction 1.35 + Pixel Perfect Sampling)\n• แก้ไขแท็บ ข้อมูล & ระบบ ให้คลิกเลือกได้แม่นยำ\n• เพิ่มระบบขายของอัตโนมัติเมื่อกระเป๋าเต็ม (/sellall)\n• ปรับแต่งให้กิน CPU 0.0% ขณะไม่ได้ทำงาน",
   "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-Rust.exe",
   "windows": {
     "version": "2.0.0",
     "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-Rust.exe",
-    "sha256": "d4c91c54e326fb264fa56906a9e0abf4674cf68b55dd61b4c451c88625b4e666",
+    "sha256": "0f49173861cadfc61f7c60163e4fd5e900c13fe41be7b9e2f07eeb41dc917a4b",
     "sizeBytes": 5822976,
     "fileName": "AFKCRAFT-Rust.exe"
   },
   "android": {
     "version": "2.0.0",
     "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-2.0.0.apk",
-    "sha256": "04f6f71c7ca83bcb0b320f3c6ecd69a6a151fe26f7df41f7b79076694444ed20",
+    "sha256": "e80f75b0871ff78547789819c45161f4c8f4e739a189c7566527e48df89cd30e",
     "sizeBytes": 8000385,
     "fileName": "AFKCRAFT-2.0.0.apk"
   }
