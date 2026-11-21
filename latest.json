@@ -1,20 +1,20 @@
 {
-  "version": "2.0.1",
+  "version": "2.0.2",
   "publishedAt": "2026-11-22",
-  "releaseNotes": "• แก้ไขปัญหาหลุดการเชื่อมต่อ Truncated zlib stream เมื่อวาร์ปเข้าสู่โลกหรือโหลด Chunk\n• แก้ไขข้อความแจ้งเตือนผู้เล่นเข้าใกล้ ซ้ำซ้อน (ผู้เล่น ผู้เล่น) และเพิ่ม Cooldown 60 วินาทีต่อผู้เล่นไม่ให้แจ้งเตือนถี่\n• อัปเดตรองรับทั้งคอมพิวเตอร์ (.exe) และโทรศัพท์มือถือ (.apk)",
-  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.1/AFKCRAFT-Rust.exe",
+  "releaseNotes": "• แก้ไขระบบโอนเงิน (/pay): รองรับหน้าต่างยืนยันการโอนเงิน SHOW_DIALOG (PaperMC / Minecraft 1.21.4+) พร้อมส่ง CUSTOM_CLICK_ACTION ตอบรับอัตโนมัติ ทำให้เงินโอนได้จริงและหักลบยอดทันที\n• อัปเดตรองรับทั้งระบบคอมพิวเตอร์ (.exe) และโทรศัพท์มือถือแอนดรอยด์ (.apk) ควบคู่กัน",
+  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.2/AFKCRAFT-Rust.exe",
   "windows": {
-    "version": "2.0.1",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.1/AFKCRAFT-Rust.exe",
-    "sha256": "9d1934b3144c07e343a1e67c86ccb23f538b767ed4a4ca7046bde7b2b9ee83d2",
-    "sizeBytes": 5826560,
+    "version": "2.0.2",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.2/AFKCRAFT-Rust.exe",
+    "sha256": "ca9d2200d41fc57cb0ed3d6090c89640a61201ee8d72b91ec0fa51672525b723",
+    "sizeBytes": 5850624,
     "fileName": "AFKCRAFT-Rust.exe"
   },
   "android": {
-    "version": "2.0.1",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.1/AFKCRAFT-2.0.1.apk",
-    "sha256": "95b58d7c6eeb8ed03be24a2128f182850f2cc1ea35f6aac1ef955970fb5d6ec4",
-    "sizeBytes": 8000385,
-    "fileName": "AFKCRAFT-2.0.1.apk"
+    "version": "2.0.2",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.2/AFKCRAFT-2.0.2.apk",
+    "sha256": "2625ba4d319d336a427ed1ce95e3663739f693b656887d795ed8f2d4705ca597",
+    "sizeBytes": 8029057,
+    "fileName": "AFKCRAFT-2.0.2.apk"
   }
 }
