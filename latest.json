@@ -6,15 +6,15 @@
   "windows": {
     "version": "2.0.0",
     "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-Rust.exe",
-    "sha256": "e41a89f7fc8848602d77e1355907f9b21320ed7337d64ec6d1707579531f4ec6",
-    "sizeBytes": 5827072,
+    "sha256": "d4c91c54e326fb264fa56906a9e0abf4674cf68b55dd61b4c451c88625b4e666",
+    "sizeBytes": 5822976,
     "fileName": "AFKCRAFT-Rust.exe"
   },
   "android": {
     "version": "2.0.0",
     "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-2.0.0.apk",
-    "sha256": "3b2aa7fc5295bc8ca9b4972b2167567871a5380b3c6f967aff25db5e7ad75ef4",
-    "sizeBytes": 7996289,
+    "sha256": "04f6f71c7ca83bcb0b320f3c6ecd69a6a151fe26f7df41f7b79076694444ed20",
+    "sizeBytes": 8000385,
     "fileName": "AFKCRAFT-2.0.0.apk"
   }
 }
