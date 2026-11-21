@@ -1,20 +1,20 @@
 {
-  "version": "2.0.2",
+  "version": "2.0.3",
   "publishedAt": "2026-11-22",
-  "releaseNotes": "• แก้ไขระบบโอนเงิน (/pay): รองรับหน้าต่างยืนยันการโอนเงิน SHOW_DIALOG (PaperMC / Minecraft 1.21.4+) พร้อมส่ง CUSTOM_CLICK_ACTION ตอบรับอัตโนมัติ ทำให้เงินโอนได้จริงและหักลบยอดทันที\n• อัปเดตรองรับทั้งระบบคอมพิวเตอร์ (.exe) และโทรศัพท์มือถือแอนดรอยด์ (.apk) ควบคู่กัน",
-  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.2/AFKCRAFT-Rust.exe",
+  "releaseNotes": "• ปรับปรุงการแสดงชื่อผู้ใช้และระบบ License ให้เป็น Sxndxy ให้ถูกต้องสม่ำเสมอในทุกจุด (ทั้งบันทึกระบบ, โปรไฟล์, และการแจ้งเตือน)\n• แก้ไขระบบโอนเงิน (/pay): รองรับหน้าต่างยืนยันการโอนเงิน SHOW_DIALOG (PaperMC / Minecraft 1.21.4+) พร้อมส่ง CUSTOM_CLICK_ACTION ตอบรับอัตโนมัติ ทำให้เงินโอนได้จริงและหักลบยอดทันที\n• อัปเดตรองรับทั้งระบบคอมพิวเตอร์ (.exe) และโทรศัพท์มือถือแอนดรอยด์ (.apk) ควบคู่กัน",
+  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.3/AFKCRAFT-Rust.exe",
   "windows": {
-    "version": "2.0.2",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.2/AFKCRAFT-Rust.exe",
-    "sha256": "ca9d2200d41fc57cb0ed3d6090c89640a61201ee8d72b91ec0fa51672525b723",
+    "version": "2.0.3",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.3/AFKCRAFT-Rust.exe",
+    "sha256": "33c6247b97acd52fac9fc8f3ad6f11d682f121e64e8e2f476b69779b7defdf06",
     "sizeBytes": 5850624,
     "fileName": "AFKCRAFT-Rust.exe"
   },
   "android": {
-    "version": "2.0.2",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.2/AFKCRAFT-2.0.2.apk",
-    "sha256": "2625ba4d319d336a427ed1ce95e3663739f693b656887d795ed8f2d4705ca597",
+    "version": "2.0.3",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.3/AFKCRAFT-2.0.3.apk",
+    "sha256": "826b7e6e179419db9d3785d824885024430c36e3f530ca78c8d0766bdebc3984",
     "sizeBytes": 8029057,
-    "fileName": "AFKCRAFT-2.0.2.apk"
+    "fileName": "AFKCRAFT-2.0.3.apk"
   }
 }
