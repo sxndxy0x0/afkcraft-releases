@@ -1,20 +1,20 @@
 {
-  "version": "2.0.0",
-  "publishedAt": "2026-11-21",
-  "releaseNotes": "• แก้ไขปัญหาคลิกเลือกโซนซ้ำรัวผิดปกติ (Debounce 5s + Hard Cap 3 ครั้ง ป้องกัน Velocity เตะ)\n• ปรับไอคอน Taskbar และหน้าต่างเป็นไอคอน AFKCRAFT ให้คมชัดสวยงาม\n• ปรับการแสดงผลระยะขอบ Ping ไม่ให้ชิดขอบการ์ด\n• ปรับความคมชัดของฟอนต์ (Gamma Correction 1.35 + Pixel Perfect Sampling)\n• แก้ไขแท็บ ข้อมูล & ระบบ ให้คลิกเลือกได้แม่นยำ\n• เพิ่มระบบขายของอัตโนมัติเมื่อกระเป๋าเต็ม (/sellall)\n• ปรับแต่งให้กิน CPU 0.0% ขณะไม่ได้ทำงาน",
-  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-Rust.exe",
+  "version": "2.0.1",
+  "publishedAt": "2026-11-22",
+  "releaseNotes": "• แก้ไขปัญหาหลุดการเชื่อมต่อ Truncated zlib stream เมื่อวาร์ปเข้าสู่โลกหรือโหลด Chunk\n• แก้ไขข้อความแจ้งเตือนผู้เล่นเข้าใกล้ ซ้ำซ้อน (ผู้เล่น ผู้เล่น) และเพิ่ม Cooldown 60 วินาทีต่อผู้เล่นไม่ให้แจ้งเตือนถี่\n• อัปเดตรองรับทั้งคอมพิวเตอร์ (.exe) และโทรศัพท์มือถือ (.apk)",
+  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.1/AFKCRAFT-Rust.exe",
   "windows": {
-    "version": "2.0.0",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-Rust.exe",
-    "sha256": "0f49173861cadfc61f7c60163e4fd5e900c13fe41be7b9e2f07eeb41dc917a4b",
-    "sizeBytes": 5822976,
+    "version": "2.0.1",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.1/AFKCRAFT-Rust.exe",
+    "sha256": "9d1934b3144c07e343a1e67c86ccb23f538b767ed4a4ca7046bde7b2b9ee83d2",
+    "sizeBytes": 5826560,
     "fileName": "AFKCRAFT-Rust.exe"
   },
   "android": {
-    "version": "2.0.0",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.0/AFKCRAFT-2.0.0.apk",
-    "sha256": "e80f75b0871ff78547789819c45161f4c8f4e739a189c7566527e48df89cd30e",
+    "version": "2.0.1",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.1/AFKCRAFT-2.0.1.apk",
+    "sha256": "95b58d7c6eeb8ed03be24a2128f182850f2cc1ea35f6aac1ef955970fb5d6ec4",
     "sizeBytes": 8000385,
-    "fileName": "AFKCRAFT-2.0.0.apk"
+    "fileName": "AFKCRAFT-2.0.1.apk"
   }
 }
