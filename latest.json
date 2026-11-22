@@ -1,20 +1,20 @@
 {
-  "version": "2.0.3",
+  "version": "2.0.4",
   "publishedAt": "2026-11-22",
-  "releaseNotes": "• ปรับปรุงการแสดงชื่อผู้ใช้และระบบ License ให้เป็น Sxndxy ให้ถูกต้องสม่ำเสมอในทุกจุด (ทั้งบันทึกระบบ, โปรไฟล์, และการแจ้งเตือน)\n• แก้ไขระบบโอนเงิน (/pay): รองรับหน้าต่างยืนยันการโอนเงิน SHOW_DIALOG (PaperMC / Minecraft 1.21.4+) พร้อมส่ง CUSTOM_CLICK_ACTION ตอบรับอัตโนมัติ ทำให้เงินโอนได้จริงและหักลบยอดทันที\n• อัปเดตรองรับทั้งระบบคอมพิวเตอร์ (.exe) และโทรศัพท์มือถือแอนดรอยด์ (.apk) ควบคู่กัน",
-  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.3/AFKCRAFT-Rust.exe",
+  "releaseNotes": "• แก้ไขปัญหาชื่อผู้ใช้ในหน้าต่างบันทึกระบบ (Console Log) แสดงเป็น 'SXndXy' — แก้ไขตัวกรองอักขระ Minecraft (normalize_minecraft_char) ที่เคยแปลงตัวอักษร 'x' เป็น 'X' โดยไม่ได้ตั้งใจ ทำให้แสดงชื่อผู้ใช้ 'Sxndxy' ถูกต้องตรงกันทั้งหมดในทุกจุด\n• อัปเดตควบคู่กันทั้งระบบคอมพิวเตอร์ (.exe) และโทรศัพท์มือถือแอนดรอยด์ (.apk)",
+  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.4/AFKCRAFT-Rust.exe",
   "windows": {
-    "version": "2.0.3",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.3/AFKCRAFT-Rust.exe",
-    "sha256": "33c6247b97acd52fac9fc8f3ad6f11d682f121e64e8e2f476b69779b7defdf06",
+    "version": "2.0.4",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.4/AFKCRAFT-Rust.exe",
+    "sha256": "e54afd2326b90c0f850e85ab83955104ab0046ff56b8df6b8f4492d5d3e8855a",
     "sizeBytes": 5850624,
     "fileName": "AFKCRAFT-Rust.exe"
   },
   "android": {
-    "version": "2.0.3",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.3/AFKCRAFT-2.0.3.apk",
-    "sha256": "826b7e6e179419db9d3785d824885024430c36e3f530ca78c8d0766bdebc3984",
-    "sizeBytes": 8029057,
-    "fileName": "AFKCRAFT-2.0.3.apk"
+    "version": "2.0.4",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.4/AFKCRAFT-2.0.4.apk",
+    "sha256": "f7abb6c9f3c5408df130543a6351387bbee72a2f5b1790ebf9868440fb01ce42",
+    "sizeBytes": 8024961,
+    "fileName": "AFKCRAFT-2.0.4.apk"
   }
 }
