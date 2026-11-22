@@ -1,20 +1,20 @@
 {
-  "version": "2.0.5",
+  "version": "2.0.6",
   "publishedAt": "2026-11-22",
-  "releaseNotes": "• แก้ไขปัญหาหลุดการเชื่อมต่อจาก zlib decompress error: incomplete deflate stream — รองรับแพ็กเก็ตที่ส่งด้วยโหมด Z_SYNC_FLUSH จากเซิร์ฟเวอร์ Minecraft Netty/PaperMC อย่างสมบูรณ์\n• อัปเดตควบคู่กันทั้งระบบคอมพิวเตอร์ (.exe) และโทรศัพท์มือถือแอนดรอยด์ (.apk)",
-  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.5/AFKCRAFT-Rust.exe",
+  "releaseNotes": "• ปรับปรุงระบบเรดาร์สแกนพืชผลและการเติบโต (Crop & Growth Radar) ให้ตรงกับความเป็นจริง 100%:\n  - รองรับการตรวจจับแปลงมันฝรั่งและพืชผลในโปรโตคอล Minecraft 26.3 (State IDs 10667..10674) และทุกเวอร์ชัน\n  - รองรับโครงสร้าง Heightmaps แบบ Array ใน 1.21.5+ และ 26.x ทำให้บอทอ่านข้อมูลบล็อกใน Chunk ได้ครบถ้วนทุก Section และทุกชั้นแนวตั้ง (รองรับฟาร์มมันฝรั่งแนวตั้งขนาดใหญ่เกือบ 100,000 ต้น)\n  - ปลดล็อกการแสดงผลตามข้อมูลจริงในโลก: ตัดตัวเลขจำลองทิ้ง แสดงเฉพาะพืชที่ปลูกจริง พร้อมคำนวณจำนวนต้นและเปอร์เซ็นต์โตเต็มที่ (Ready to Harvest) อย่างแม่นยำ\n  - ปรับปรุงการลบและอัปเดต Chunks ในหน่วยความจำแบบ Idempotent ป้องกันการนับซ้ำ\n• อัปเดตควบคู่กันทั้งระบบคอมพิวเตอร์ (.exe) และโทรศัพท์มือถือแอนดรอยด์ (.apk)",
+  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.6/AFKCRAFT-Rust.exe",
   "windows": {
-    "version": "2.0.5",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.5/AFKCRAFT-Rust.exe",
-    "sha256": "e86dd87592165afc86d1d98088e02bac41453bbdc1469f5ae5ec722c77db5c66",
-    "sizeBytes": 5851136,
+    "version": "2.0.6",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.6/AFKCRAFT-Rust.exe",
+    "sha256": "09b9d0f6564d5ef19a1b6ed5c835144968077f1263718dc646931a315e39c684",
+    "sizeBytes": 5855744,
     "fileName": "AFKCRAFT-Rust.exe"
   },
   "android": {
-    "version": "2.0.5",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.5/AFKCRAFT-2.0.5.apk",
-    "sha256": "c608966ccd49c41eb56cac930cb0068002d90a2649dca73f6f3ed7a7c798f958",
-    "sizeBytes": 8029057,
-    "fileName": "AFKCRAFT-2.0.5.apk"
+    "version": "2.0.6",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.6/AFKCRAFT-2.0.6.apk",
+    "sha256": "7b2b5f3d3d3940c429ad594a48db6ec5e4ae6b140659ec7ab700653c7b202947",
+    "sizeBytes": 8033153,
+    "fileName": "AFKCRAFT-2.0.6.apk"
   }
 }
