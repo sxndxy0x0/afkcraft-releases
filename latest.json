@@ -1,20 +1,20 @@
 {
-  "version": "2.0.6",
+  "version": "2.0.7",
   "publishedAt": "2026-11-22",
-  "releaseNotes": "• ปรับปรุงระบบเรดาร์สแกนพืชผลและการเติบโต (Crop & Growth Radar) ให้ตรงกับความเป็นจริง 100%:\n  - รองรับการตรวจจับแปลงมันฝรั่งและพืชผลในโปรโตคอล Minecraft 26.3 (State IDs 10667..10674) และทุกเวอร์ชัน\n  - รองรับโครงสร้าง Heightmaps แบบ Array ใน 1.21.5+ และ 26.x ทำให้บอทอ่านข้อมูลบล็อกใน Chunk ได้ครบถ้วนทุก Section และทุกชั้นแนวตั้ง (รองรับฟาร์มมันฝรั่งแนวตั้งขนาดใหญ่เกือบ 100,000 ต้น)\n  - ปลดล็อกการแสดงผลตามข้อมูลจริงในโลก: ตัดตัวเลขจำลองทิ้ง แสดงเฉพาะพืชที่ปลูกจริง พร้อมคำนวณจำนวนต้นและเปอร์เซ็นต์โตเต็มที่ (Ready to Harvest) อย่างแม่นยำ\n  - ปรับปรุงการลบและอัปเดต Chunks ในหน่วยความจำแบบ Idempotent ป้องกันการนับซ้ำ\n• อัปเดตควบคู่กันทั้งระบบคอมพิวเตอร์ (.exe) และโทรศัพท์มือถือแอนดรอยด์ (.apk)",
-  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.6/AFKCRAFT-Rust.exe",
+  "releaseNotes": "• ปรับปรุงตัวถอดรหัส Chunk Section ให้รองรับโครงสร้าง 26.1+ / 26.3 เต็มรูปแบบ (hasFluidCount และ dynamic longs array):\n  - แก้ปัญหาอ่านฟาร์มมันฝรั่งขนาดใหญ่ (เกือบ 100,000 ต้น) ไม่ครบ — บอทสามารถถอดรหัสข้อมูล Chunk ได้ครบถ้วนทุก 24 Section ในทุก Chunk รอบตัว\n  - จัดหมวดหมู่ Block State IDs ของพืชผลใหม่ ป้องกันมันฝรั่งถูกเข้าใจผิดว่าเป็นกระบองเพชร\n• ป้องกันการหลุดการเชื่อมต่อ (Anti-Disconnect / Anti-Kick):\n  - เพิ่มระบบตรวจจับการนับถอยหลังวาร์ป (/home, /warp, /spawn) หยุดการขยับ การหมุนคอ Anti-AFK และคำสั่งชั่วคราว ป้องกันเซิร์ฟเวอร์ตัดสายด้วย error 10054 (กรุณาอย่าขยับ)\n  - เพิ่มระบบกู้คืน zlib deflate stream แบบ Multi-block loop พร้อมระบบชดเชย sync flush marker ป้องกันข้อผิดพลาด incomplete deflate stream\n• ปรับปรุงระบบสมัครสมาชิกอัตโนมัติสำหรับไอดีใหม่:\n  - ตรวจจับข้อความสมัครสมาชิก ('กรุณาสมัครสมาชิกผ่านหน้าต่างที่ปรากฏ', 'กรุณาสมัครสมาชิกก่อน') และส่ง /register <password> <password> ให้อัตโนมัติทันที พร้อมหยุดการคลิกเปิดเมนูเซิร์ฟเวอร์จนกว่าจะลงทะเบียนเสร็จสิ้น\n• อัปเดตพร้อมกันทั้งระบบคอมพิวเตอร์ (.exe) และมือถือแอนดรอยด์ (.apk)",
+  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.7/AFKCRAFT-Rust.exe",
   "windows": {
-    "version": "2.0.6",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.6/AFKCRAFT-Rust.exe",
-    "sha256": "09b9d0f6564d5ef19a1b6ed5c835144968077f1263718dc646931a315e39c684",
-    "sizeBytes": 5855744,
+    "version": "2.0.7",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.7/AFKCRAFT-Rust.exe",
+    "sha256": "709e82ffccd5badf82a1bb09ae0e923412a5067c2444fad8918006a942994ea7",
+    "sizeBytes": 5857280,
     "fileName": "AFKCRAFT-Rust.exe"
   },
   "android": {
-    "version": "2.0.6",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.6/AFKCRAFT-2.0.6.apk",
-    "sha256": "7b2b5f3d3d3940c429ad594a48db6ec5e4ae6b140659ec7ab700653c7b202947",
-    "sizeBytes": 8033153,
-    "fileName": "AFKCRAFT-2.0.6.apk"
+    "version": "2.0.7",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.7/AFKCRAFT-2.0.7.apk",
+    "sha256": "18e3f39130b9e554cba661344ff4419832cf2e37c74a29b7fa09b0706589e2e9",
+    "sizeBytes": 8037249,
+    "fileName": "AFKCRAFT-2.0.7.apk"
   }
 }
