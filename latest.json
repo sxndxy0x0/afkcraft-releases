@@ -1,20 +1,20 @@
 {
-  "version": "2.0.7",
-  "publishedAt": "2026-11-22",
-  "releaseNotes": "• ปรับปรุงตัวถอดรหัส Chunk Section ให้รองรับโครงสร้าง 26.1+ / 26.3 เต็มรูปแบบ (hasFluidCount และ dynamic longs array):\n  - แก้ปัญหาอ่านฟาร์มมันฝรั่งขนาดใหญ่ (เกือบ 100,000 ต้น) ไม่ครบ — บอทสามารถถอดรหัสข้อมูล Chunk ได้ครบถ้วนทุก 24 Section ในทุก Chunk รอบตัว\n  - จัดหมวดหมู่ Block State IDs ของพืชผลใหม่ ป้องกันมันฝรั่งถูกเข้าใจผิดว่าเป็นกระบองเพชร\n• ป้องกันการหลุดการเชื่อมต่อ (Anti-Disconnect / Anti-Kick):\n  - เพิ่มระบบตรวจจับการนับถอยหลังวาร์ป (/home, /warp, /spawn) หยุดการขยับ การหมุนคอ Anti-AFK และคำสั่งชั่วคราว ป้องกันเซิร์ฟเวอร์ตัดสายด้วย error 10054 (กรุณาอย่าขยับ)\n  - เพิ่มระบบกู้คืน zlib deflate stream แบบ Multi-block loop พร้อมระบบชดเชย sync flush marker ป้องกันข้อผิดพลาด incomplete deflate stream\n• ปรับปรุงระบบสมัครสมาชิกอัตโนมัติสำหรับไอดีใหม่:\n  - ตรวจจับข้อความสมัครสมาชิก ('กรุณาสมัครสมาชิกผ่านหน้าต่างที่ปรากฏ', 'กรุณาสมัครสมาชิกก่อน') และส่ง /register <password> <password> ให้อัตโนมัติทันที พร้อมหยุดการคลิกเปิดเมนูเซิร์ฟเวอร์จนกว่าจะลงทะเบียนเสร็จสิ้น\n• อัปเดตพร้อมกันทั้งระบบคอมพิวเตอร์ (.exe) และมือถือแอนดรอยด์ (.apk)",
-  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.7/AFKCRAFT-Rust.exe",
+  "version": "2.0.14",
+  "publishedAt": "2026-11-23",
+  "releaseNotes": "• มือถือ: บอททำงานเบื้องหลังเต็มที่\n  - ปิดจอแล้วเน็ตไม่หลุดอีก (เพิ่มบริการเบื้องหลังที่ Android ไม่แช่แข็งแอป)\n  - ปัดแอปทิ้งจากหน้าแอปล่าสุดได้ บอทยังทำงานต่อ เปิดแอปกลับมาก็เห็นสถานะเดิมทันที\n  - ขอสิทธิ์ \"ทำงานเบื้องหลังไม่จำกัดแบตเตอรี่\" ครั้งแรกที่เริ่มบอท (ดู/กดใหม่ได้ที่ ตั้งค่า > การเชื่อมต่อ)\n• มือถือ: แถบแจ้งเตือนใหม่\n  - แสดงทุกบอท: เลือด อาหาร เงิน เวลาออนไลน์ และเหตุผลที่หลุด\n  - ปุ่ม หยุดบอททั้งหมด / เชื่อมต่อใหม่ตอนนี้ / เปิดแอป\n  - เด้งเตือนแยกเมื่อบอทหลุดหรือโดนหยุด\n• มือถือ: พิมพ์ง่ายขึ้น\n  - ช่องพิมพ์ลอยเหนือคีย์บอร์ด ไม่โดนบัง คีย์บอร์ดไม่เปิดปิดรัว\n  - พิมพ์ไทย ปัดพิมพ์ และวางข้อความได้ ส่งแชทแล้วคีย์บอร์ดยังเปิดค้างให้พิมพ์ต่อ\n• เน็ตกลับมาแล้วบอทต่อใหม่ทันที (ทยอยเข้าทีละตัว ไม่โดน \"logging in too fast\")\n• แก้แถบบนแสดง \"ออนไลน์\" ทั้งที่บอทหลุดอยู่\n• หน้าจอมือถือลื่นขึ้น (วาดภาพหลายคอร์ ไม่วาดซ้ำเมื่อไม่มีอะไรเปลี่ยน)\n• รวมการแก้ไขจาก 2.0.12:\n  - ตรวจจับผู้เล่นใกล้ตัวบอทแม่นยำขึ้น\n  - เรดาร์พืชอัปเดตการเจริญเติบโตแบบสด\n  - ป้องกันหลุด (Error 10054) หลังวาร์ปเข้าฟาร์มขนาดใหญ่\n• อัปเดตพร้อมกันทั้งคอมพิวเตอร์ (.exe) และมือถือแอนดรอยด์ (.apk)",
+  "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.14/AFKCRAFT-Rust.exe",
   "windows": {
-    "version": "2.0.7",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.7/AFKCRAFT-Rust.exe",
-    "sha256": "709e82ffccd5badf82a1bb09ae0e923412a5067c2444fad8918006a942994ea7",
-    "sizeBytes": 5857280,
+    "version": "2.0.14",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.14/AFKCRAFT-Rust.exe",
+    "sha256": "05e8a93d27ccb79e8ef8da10bd6180d417e6d6eb2a7861ba01d845615390267f",
+    "sizeBytes": 5897216,
     "fileName": "AFKCRAFT-Rust.exe"
   },
   "android": {
-    "version": "2.0.7",
-    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.7/AFKCRAFT-2.0.7.apk",
-    "sha256": "18e3f39130b9e554cba661344ff4419832cf2e37c74a29b7fa09b0706589e2e9",
-    "sizeBytes": 8037249,
-    "fileName": "AFKCRAFT-2.0.7.apk"
+    "version": "2.0.14",
+    "downloadUrl": "https://github.com/sxndxy0x0/afkcraft-releases/releases/download/v2.0.14/AFKCRAFT-2.0.14.apk",
+    "sha256": "f36ea7680ba9f75e679fd228f98192334a1a8f8f9c9aacaeff0e82a0cff7d6b2",
+    "sizeBytes": 11834448,
+    "fileName": "AFKCRAFT-2.0.14.apk"
   }
 }
